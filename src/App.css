@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  min-width: 750px;
+}
+ul,ol,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.App{
+  width: 80%;
+  height: 300px;
+  margin: 10px auto;
+  border:1px solid #cccccc;
+  position: relative;
+}
+.nametitle{
+  width: 80%;
+  margin:10px auto;
+  overflow: hidden;
+}
+.nametitle span{
+  display: inline-block;
+  width: 90px;
+  float: left;
+
+}
+.rite{
+  width: 80%;
+  height: 25px;
+  line-height: 25px;
+  float: right;
+}
+.ritearea{
+   width: 80%;
+  height: 200px;
+  line-height: 20px; 
+  float: right;
+}
+.sendbtn{
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  background: #10caa5;
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  right: 10%;
+}
+.commentlist{
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid #cccccc;
+  padding: 15px 0px;
+}
+.clname{
+  color: #10caa5;
+}
+.clcount{
+  color: #333333;
+  word-break: break-all;
+}
